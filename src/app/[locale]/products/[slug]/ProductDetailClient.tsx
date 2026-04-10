@@ -99,7 +99,7 @@ export function ProductDetailClient({ product, labels }: Props) {
               </p>
 
               <div className="mt-3">
-                <ProductRating rating={4.8} reviewCount={127} amazonUrl={product.amazonUrl} />
+                <ProductRating rating={product.rating} reviewCount={product.reviewCount} amazonUrl={product.amazonUrl} />
               </div>
 
               <div className="mt-3">

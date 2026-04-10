@@ -13,6 +13,8 @@ export interface Product {
   amazonUrl: string;
   badge: string | null;
   dimensions: string;
+  rating: number;
+  reviewCount: number;
 }
 
 export const PRODUCTS: Product[] = [
@@ -29,6 +31,8 @@ export const PRODUCTS: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B0F43NYGZ1",
     badge: null,
     dimensions: "120 × 80 × 40 cm",
+    rating: 4.7,
+    reviewCount: 12,
   },
   {
     slug: "sessel",
@@ -43,6 +47,8 @@ export const PRODUCTS: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B0DCNJPB7B",
     badge: null,
     dimensions: "80 × 60 × 40 cm",
+    rating: 4.6,
+    reviewCount: 54,
   },
   {
     slug: "huepfpolster",
@@ -56,6 +62,8 @@ export const PRODUCTS: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B0GS3MJC4P",
     badge: "New",
     dimensions: "78 × 60 × 24 cm",
+    rating: 4.8,
+    reviewCount: 18,
   },
 ];
 
