@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
-import { ShieldCheck, ExternalLink } from "lucide-react";
+import { Link } from "@/i18n/navigation";
+import { ShieldCheck, ExternalLink, ArrowRight } from "lucide-react";
 
 const PRODUCTS = [
   {
@@ -58,13 +59,13 @@ export default async function ProductsPage({
               className="bg-white rounded-3xl border border-cream/60 overflow-hidden hover:shadow-xl hover:shadow-brown/5 transition-shadow duration-300"
             >
               <div className="grid grid-cols-1 lg:grid-cols-2">
-                {/* Main Image */}
-                <div className="relative aspect-square bg-white overflow-hidden p-6">
+                {/* Main Image — clickable */}
+                <Link href={`/products/${key}`} className="relative aspect-square bg-white overflow-hidden p-6 cursor-pointer">
                   <Image
                     src={images[0]}
                     alt={t(`${key}.name`)}
                     fill
-                    className="object-contain p-4"
+                    className="object-contain p-4 hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   {badge && (
@@ -72,14 +73,16 @@ export default async function ProductsPage({
                       {badge}
                     </span>
                   )}
-                </div>
+                </Link>
 
                 {/* Details */}
                 <div className="p-8 sm:p-10 flex flex-col justify-between">
                   <div>
-                    <h2 className="font-heading text-2xl sm:text-3xl text-brown">
-                      {t(`${key}.name`)}
-                    </h2>
+                    <Link href={`/products/${key}`} className="cursor-pointer hover:text-turquoise transition-colors">
+                      <h2 className="font-heading text-2xl sm:text-3xl text-brown">
+                        {t(`${key}.name`)}
+                      </h2>
+                    </Link>
                     <p className="mt-4 text-brown-muted leading-relaxed">
                       {t(`${key}.description`)}
                     </p>
@@ -119,20 +122,29 @@ export default async function ProductsPage({
                     )}
                   </div>
 
-                  {/* Price + CTA */}
-                  <div className="mt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-6 border-t border-cream/60">
+                  {/* Price + CTAs */}
+                  <div className="mt-8 pt-6 border-t border-cream/60">
                     <span className="text-2xl font-semibold text-brown">
                       {price}
                     </span>
-                    <a
-                      href={amazonUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 bg-coral hover:bg-coral-dark text-white font-semibold px-6 py-3 rounded-xl transition-colors duration-200 cursor-pointer"
-                    >
-                      {t("viewOnAmazon")}
-                      <ExternalLink size={16} />
-                    </a>
+                    <div className="mt-4 flex flex-col sm:flex-row gap-3">
+                      <Link
+                        href={`/products/${key}`}
+                        className="inline-flex items-center justify-center gap-2 bg-coral hover:bg-coral-dark text-white font-semibold px-6 py-3 rounded-xl transition-colors duration-200 cursor-pointer"
+                      >
+                        View Details
+                        <ArrowRight size={16} />
+                      </Link>
+                      <a
+                        href={amazonUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center gap-2 bg-white border-2 border-cream hover:border-turquoise text-brown font-semibold px-6 py-3 rounded-xl transition-colors duration-200 cursor-pointer"
+                      >
+                        Amazon
+                        <ExternalLink size={14} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
