@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Angelove — Mobilier Premium pour Enfants",
-    "description": "Label familial européen. Mobilier pour enfants sûr, confortable et polyvalent, fabriqué avec des matériaux certifiés OEKO-TEX."
+    "title": "AngeLove — Mobilier Premium pour Enfants",
+    "description": "Label familial européen. Mobilier pour enfants sûr, confortable et polyvalent, fabriqué en velours côtelé certifié OEKO-TEX."
   },
   "Nav": {
     "home": "Accueil",
@@ -12,46 +12,38 @@
   "Hero": {
     "tagline": "Sûr. Confortable. Polyvalent.",
     "title": "Mobilier Premium pour Enfants",
-    "subtitle": "En tant que parents, nous savons à quel point des produits sûrs, confortables et polyvalents sont importants pour vos enfants. Chaque produit Angelove est certifié OEKO-TEX Standard 100.",
+    "subtitle": "En tant que parents, nous savons à quel point des produits sûrs, confortables et polyvalents sont importants pour vos enfants. Chaque produit AngeLove est certifié OEKO-TEX Standard 100 et fabriqué en velours côtelé premium.",
     "cta": "Découvrez notre collection",
     "ctaAmazon": "Acheter sur Amazon"
   },
   "Products": {
     "title": "Notre Collection",
-    "subtitle": "Mobilier modulaire en mousse qui grandit avec votre enfant",
+    "subtitle": "Trois produits premium conçus pour le jeu, le repos et la créativité",
     "viewOnAmazon": "Voir sur Amazon",
     "startingFrom": "À partir de",
-    "sofas": {
-      "name": "Canapé de Jeu",
-      "description": "Canapé de jeu modulaire avec 7 configurations et fonction couchage. Revêtement premium en velours côtelé.",
-      "features": "7 configurations, Fonction couchage, Éléments modulaires"
+    "sofa": {
+      "name": "Canapé Enfant",
+      "description": "Canapé de jeu modulaire avec fonction couchage. 10 éléments pour d'innombrables configurations — du canapé cosy au tapis de jeu spacieux. Velours côtelé premium avec housses amovibles et lavables.",
+      "features": "Fonction couchage, 10 éléments modulaires, Housses lavables, Certifié OEKO-TEX"
     },
-    "halfSofas": {
-      "name": "Fauteuil Enfant 3-en-1",
-      "description": "Fauteuil compact pliable qui se transforme en canapé et tapis de jeu. Léger et adapté aux enfants.",
-      "features": "Design 3-en-1, Pliable, Léger"
-    },
-    "waveLounger": {
-      "name": "Chaise Longue Vague",
-      "description": "Chaise longue en forme de vague pour la lecture et la détente. Design ergonomique en une pièce.",
-      "features": "Forme ergonomique, Léger, Une pièce"
-    },
-    "sofaPremium": {
-      "name": "Canapé Premium",
-      "description": "Canapé premium en velours côtelé avec mousse haute densité et options de configuration élargies.",
-      "features": "Velours côtelé premium, Mousse renforcée, Configurations larges"
+    "sessel": {
+      "name": "Fauteuil Enfant",
+      "description": "Fauteuil multifonctionnel en mousse qui se transforme de siège cosy en chaise longue ou tapis de jeu. Assez léger pour que les enfants le déplacent eux-mêmes.",
+      "features": "Design 3-en-1, Pliable, Léger, Certifié OEKO-TEX"
     },
     "huepfpolster": {
       "name": "Coussin Rebondissant",
-      "description": "Coussin rebondissant d'intérieur avec système de ressorts Bonnell. Housse certifiée OEKO-TEX en 6 couleurs.",
-      "features": "Ressorts Bonnell, Rebond intérieur, 6 couleurs"
+      "description": "Coussin rebondissant d'intérieur avec système de ressorts Bonnell. Alternative sûre au trampoline — parfait pour dépenser son énergie les jours de pluie. 78 × 60 × 24 cm.",
+      "features": "Ressorts Bonnell, Rebond intérieur, 6 couleurs, Certifié OEKO-TEX"
     }
   },
   "About": {
-    "title": "À propos d'Angelove",
+    "title": "À propos d'AngeLove",
     "subtitle": "Un label familial européen",
-    "story": "Angelove est un label familial européen né de notre propre expérience de parents. En tant que parents, nous savons combien des produits sûrs, confortables et polyvalents sont importants pour les enfants.",
+    "story": "AngeLove est un label familial européen né de notre propre expérience de parents. En tant que parents, nous savons combien des produits sûrs, confortables et polyvalents sont importants pour les enfants.",
     "storyExtended": "Nous avons créé une collection de canapés, fauteuils et éléments modulaires en mousse qui allient jeu, repos et créativité. Chaque produit est fabriqué avec des matériaux certifiés OEKO-TEX Standard 100 — la norme de sécurité la plus élevée pour les textiles en contact avec la peau de bébé.",
+    "materialTitle": "Notre matériau signature : le velours côtelé",
+    "materialText": "Chaque produit AngeLove est recouvert de velours côtelé premium — doux, durable et élégant. Nos couleurs pastel soigneusement sélectionnées s'intègrent harmonieusement dans les intérieurs modernes et créent une atmosphère chaleureuse pour votre enfant.",
     "values": {
       "safety": {
         "title": "La sécurité avant tout",
@@ -67,7 +59,7 @@
       },
       "versatile": {
         "title": "Design Polyvalent",
-        "description": "Mobilier multifonctionnel — des fauteuils 3-en-1 aux canapés modulaires 7-en-1. Grandit avec votre enfant."
+        "description": "Mobilier multifonctionnel qui s'adapte à chaque situation — du jeu au repos. Grandit avec votre enfant."
       }
     }
   },
@@ -85,7 +77,6 @@
     "email": "Adresse e-mail",
     "message": "Votre message",
     "send": "Envoyer le message",
-    "successMessage": "Merci ! Nous vous répondrons bientôt.",
     "businessInquiries": "Pour les demandes commerciales",
     "generalQuestions": "Pour les questions générales"
   },
@@ -96,6 +87,6 @@
     "privacy": "Politique de confidentialité",
     "imprint": "Mentions légales",
     "terms": "Conditions générales",
-    "copyright": "Angelove. Tous droits réservés."
+    "copyright": "AngeLove. Tous droits réservés."
   }
 }

@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import {
   ShieldCheck,
   Leaf,
@@ -12,28 +13,22 @@ import {
 
 const PRODUCTS = [
   {
-    key: "sofas",
-    price: "€150",
-    image: "/products/sofa.jpg",
-    colors: ["#E8DCC8", "#F0C0C0", "#5BB8B0", "#8B5DAA", "#9E9E9E"],
+    key: "sofa",
+    price: "€199",
+    image: "/products/sofa-cream.jpg",
+    amazonUrl: "https://www.amazon.de/dp/B0F43NYGZ1",
   },
   {
-    key: "halfSofas",
-    price: "€80",
-    image: "/products/half-sofa.jpg",
-    colors: ["#E8DCC8", "#F0C0C0", "#5BB8B0", "#8B5DAA"],
-  },
-  {
-    key: "waveLounger",
-    price: "€80",
-    image: "/products/wave-lounger.jpg",
-    colors: ["#E8DCC8", "#F0C0C0", "#5BB8B0"],
+    key: "sessel",
+    price: "€99",
+    image: "/products/sessel-beige.jpg",
+    amazonUrl: "https://www.amazon.de/dp/B0DCNJPB7B",
   },
   {
     key: "huepfpolster",
     price: "€109",
-    image: "/products/huepfpolster.jpg",
-    colors: ["#E8DCC8", "#F0C0C0", "#5BB8B0", "#8B5DAA", "#9E9E9E", "#A7C4A0"],
+    image: "/products/huepfpolster-beige.png",
+    amazonUrl: "https://www.amazon.de/dp/B0GS3MJC4P",
   },
 ] as const;
 
@@ -61,40 +56,49 @@ export default async function HomePage({
     <>
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-b from-cream to-off-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36">
-          <div className="max-w-2xl">
-            <p className="text-turquoise font-semibold text-sm uppercase tracking-widest mb-4">
-              {t("tagline")}
-            </p>
-            <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-brown leading-tight">
-              {t("title")}
-            </h1>
-            <p className="mt-6 text-lg text-brown-muted leading-relaxed max-w-xl">
-              {t("subtitle")}
-            </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/products"
-                className="inline-flex items-center justify-center gap-2 bg-coral hover:bg-coral-dark text-white font-semibold px-7 py-3.5 rounded-2xl transition-colors duration-200 cursor-pointer"
-              >
-                {t("cta")}
-                <ArrowRight size={18} />
-              </Link>
-              <a
-                href="https://www.amazon.de/stores/Angelove"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 bg-white border-2 border-cream hover:border-turquoise text-brown font-semibold px-7 py-3.5 rounded-2xl transition-colors duration-200 cursor-pointer"
-              >
-                {t("ctaAmazon")}
-                <ExternalLink size={16} />
-              </a>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div>
+              <p className="text-turquoise font-semibold text-sm uppercase tracking-widest mb-4">
+                {t("tagline")}
+              </p>
+              <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-brown leading-tight">
+                {t("title")}
+              </h1>
+              <p className="mt-6 text-lg text-brown-muted leading-relaxed max-w-xl">
+                {t("subtitle")}
+              </p>
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/products"
+                  className="inline-flex items-center justify-center gap-2 bg-coral hover:bg-coral-dark text-white font-semibold px-7 py-3.5 rounded-2xl transition-colors duration-200 cursor-pointer"
+                >
+                  {t("cta")}
+                  <ArrowRight size={18} />
+                </Link>
+                <a
+                  href="https://www.amazon.de/stores/Angelove"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-white border-2 border-cream hover:border-turquoise text-brown font-semibold px-7 py-3.5 rounded-2xl transition-colors duration-200 cursor-pointer"
+                >
+                  {t("ctaAmazon")}
+                  <ExternalLink size={16} />
+                </a>
+              </div>
+            </div>
+            <div className="relative">
+              <Image
+                src="/lifestyle/hero.png"
+                alt="Child playing on AngeLove bouncing cushion in a Scandinavian children's room"
+                width={600}
+                height={800}
+                className="rounded-3xl shadow-2xl shadow-brown/10 object-cover w-full max-h-[500px]"
+                priority
+              />
             </div>
           </div>
         </div>
-        {/* Decorative blob */}
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-turquoise/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-32 -left-32 w-80 h-80 bg-pink/20 rounded-full blur-3xl" />
       </section>
 
       {/* Trust Bar */}
@@ -111,7 +115,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Products Preview */}
+      {/* Products */}
       <section className="py-16 sm:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -121,51 +125,45 @@ export default async function HomePage({
             <p className="mt-3 text-brown-muted text-lg">{tp("subtitle")}</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {PRODUCTS.map(({ key, price, colors }) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {PRODUCTS.map(({ key, price, image, amazonUrl }) => (
               <div
                 key={key}
-                className="group bg-white rounded-2xl border border-cream/60 p-5 hover:shadow-lg hover:shadow-brown/5 transition-all duration-300"
+                className="group bg-white rounded-2xl border border-cream/60 overflow-hidden hover:shadow-xl hover:shadow-brown/5 transition-all duration-300"
               >
-                {/* Image Placeholder */}
-                <div className="aspect-square bg-cream/40 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
-                  <div className="w-24 h-24 bg-cream rounded-2xl flex items-center justify-center">
-                    <Leaf size={32} className="text-turquoise/40" />
+                <div className="relative aspect-square bg-cream/20 overflow-hidden">
+                  <Image
+                    src={image}
+                    alt={tp(`${key}.name`)}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                  />
+                </div>
+
+                <div className="p-6">
+                  <h3 className="font-heading text-xl text-brown">
+                    {tp(`${key}.name`)}
+                  </h3>
+                  <p className="mt-2 text-sm text-brown-muted leading-relaxed line-clamp-3">
+                    {tp(`${key}.description`)}
+                  </p>
+
+                  <div className="mt-4 flex items-center justify-between pt-4 border-t border-cream/60">
+                    <span className="text-sm text-brown-muted">
+                      {tp("startingFrom")}{" "}
+                      <span className="font-semibold text-brown text-base">{price}</span>
+                    </span>
+                    <a
+                      href={amazonUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-turquoise hover:text-turquoise-dark transition-colors cursor-pointer"
+                    >
+                      Amazon
+                      <ExternalLink size={14} />
+                    </a>
                   </div>
-                </div>
-
-                <h3 className="font-heading text-lg text-brown">
-                  {tp(`${key}.name`)}
-                </h3>
-                <p className="mt-1.5 text-sm text-brown-muted leading-relaxed line-clamp-2">
-                  {tp(`${key}.description`)}
-                </p>
-
-                {/* Color dots */}
-                <div className="flex gap-1.5 mt-3">
-                  {colors.map((color) => (
-                    <span
-                      key={color}
-                      className="w-4 h-4 rounded-full border border-brown/10"
-                      style={{ backgroundColor: color }}
-                    />
-                  ))}
-                </div>
-
-                <div className="mt-4 flex items-center justify-between">
-                  <span className="text-sm text-brown-muted">
-                    {tp("startingFrom")}{" "}
-                    <span className="font-semibold text-brown">{price}</span>
-                  </span>
-                  <a
-                    href="https://www.amazon.de/stores/Angelove"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs font-semibold text-turquoise hover:text-turquoise-dark transition-colors cursor-pointer flex items-center gap-1"
-                  >
-                    Amazon
-                    <ExternalLink size={12} />
-                  </a>
                 </div>
               </div>
             ))}
@@ -186,27 +184,34 @@ export default async function HomePage({
       {/* About Preview */}
       <section className="bg-cream/40 py-16 sm:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-turquoise font-semibold text-sm uppercase tracking-widest mb-4">
-              {ta("subtitle")}
-            </p>
-            <h2 className="font-heading text-3xl sm:text-4xl text-brown">
-              {ta("title")}
-            </h2>
-            <p className="mt-6 text-brown-muted text-lg leading-relaxed">
-              {ta("story")}
-            </p>
-            <p className="mt-4 text-brown-muted leading-relaxed">
-              {ta("storyExtended")}
-            </p>
-            <Link
-              href="/about"
-              className="mt-8 inline-flex items-center gap-2 text-coral hover:text-coral-dark font-semibold transition-colors cursor-pointer"
-            >
-              {/* "Learn more" is short enough to not need translation for MVP */}
-              Learn more
-              <ArrowRight size={18} />
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <p className="text-turquoise font-semibold text-sm uppercase tracking-widest mb-4">
+                {ta("subtitle")}
+              </p>
+              <h2 className="font-heading text-3xl sm:text-4xl text-brown">
+                {ta("title")}
+              </h2>
+              <p className="mt-6 text-brown-muted text-lg leading-relaxed">
+                {ta("story")}
+              </p>
+              <p className="mt-4 text-brown-muted leading-relaxed">
+                {ta("storyExtended")}
+              </p>
+              <Link
+                href="/about"
+                className="mt-8 inline-flex items-center gap-2 text-coral hover:text-coral-dark font-semibold transition-colors cursor-pointer"
+              >
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+            <Image
+              src="/lifestyle/sofa-lifestyle.png"
+              alt="Child sleeping on AngeLove sofa"
+              width={600}
+              height={400}
+              className="rounded-3xl shadow-lg shadow-brown/5 object-cover w-full"
+            />
           </div>
         </div>
       </section>

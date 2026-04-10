@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from "next/image";
 import { ShieldCheck, Leaf, Globe, Puzzle } from "lucide-react";
 
 const VALUES = [
@@ -31,16 +32,25 @@ export default async function AboutPage({
         </div>
       </section>
 
-      {/* Story */}
+      {/* Story with Image */}
       <section className="py-12 sm:py-16">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <p className="text-brown-muted text-lg leading-relaxed">
-              {t("story")}
-            </p>
-            <p className="text-brown-muted leading-relaxed mt-4">
-              {t("storyExtended")}
-            </p>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div>
+              <p className="text-brown-muted text-lg leading-relaxed">
+                {t("story")}
+              </p>
+              <p className="text-brown-muted leading-relaxed mt-4">
+                {t("storyExtended")}
+              </p>
+            </div>
+            <Image
+              src="/lifestyle/lifestyle-1.png"
+              alt="AngeLove furniture in a Scandinavian children's room"
+              width={600}
+              height={400}
+              className="rounded-3xl shadow-lg shadow-brown/5 object-cover w-full"
+            />
           </div>
         </div>
       </section>
@@ -71,38 +81,41 @@ export default async function AboutPage({
 
       {/* Signature Material */}
       <section className="py-16 sm:py-20">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-heading text-3xl text-brown mb-6">
-            {locale === "de"
-              ? "Unser Signature-Material: Cord"
-              : locale === "fr"
-                ? "Notre matériau signature : le velours côtelé"
-                : "Our Signature Material: Corduroy"}
-          </h2>
-          <p className="text-brown-muted text-lg leading-relaxed">
-            {locale === "de"
-              ? "Jedes Angelove-Produkt ist mit Premium-Cord-Stoff bezogen — weich, langlebig und stilvoll. Unsere sorgfältig ausgewählten Pastellfarben fügen sich harmonisch in moderne Wohnräume ein und schaffen eine warme, einladende Atmosphäre für Ihr Kind."
-              : locale === "fr"
-                ? "Chaque produit Angelove est recouvert de velours côtelé premium — doux, durable et élégant. Nos couleurs pastel soigneusement sélectionnées s'intègrent harmonieusement dans les intérieurs modernes et créent une atmosphère chaleureuse pour votre enfant."
-                : "Every Angelove product is upholstered in premium corduroy fabric — soft, durable, and stylish. Our carefully selected pastel colours blend harmoniously into modern living spaces, creating a warm and inviting atmosphere for your child."}
-          </p>
-          {/* Color swatches */}
-          <div className="flex items-center justify-center gap-4 mt-8">
-            {[
-              { color: "#E8DCC8", name: "Beige" },
-              { color: "#F0C0C0", name: "Rosa" },
-              { color: "#5BB8B0", name: "Türkis" },
-              { color: "#8B5DAA", name: "Violett" },
-              { color: "#9E9E9E", name: "Grau" },
-            ].map(({ color, name }) => (
-              <div key={color} className="flex flex-col items-center gap-2">
-                <span
-                  className="w-12 h-12 rounded-2xl border border-brown/10"
-                  style={{ backgroundColor: color }}
-                />
-                <span className="text-xs text-brown-muted">{name}</span>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <Image
+              src="/lifestyle/lifestyle-2.png"
+              alt="AngeLove corduroy furniture detail"
+              width={600}
+              height={400}
+              className="rounded-3xl shadow-lg shadow-brown/5 object-cover w-full order-2 lg:order-1"
+            />
+            <div className="order-1 lg:order-2">
+              <h2 className="font-heading text-3xl text-brown mb-6">
+                {t("materialTitle")}
+              </h2>
+              <p className="text-brown-muted text-lg leading-relaxed">
+                {t("materialText")}
+              </p>
+              {/* Color swatches */}
+              <div className="flex items-center gap-4 mt-8">
+                {[
+                  { color: "#E8DCC8", name: "Beige" },
+                  { color: "#D4A5A5", name: "Rosa" },
+                  { color: "#5BB8B0", name: "Türkis" },
+                  { color: "#8B7355", name: "Braun" },
+                  { color: "#9E9E9E", name: "Grau" },
+                ].map(({ color, name }) => (
+                  <div key={color} className="flex flex-col items-center gap-2">
+                    <span
+                      className="w-12 h-12 rounded-2xl border border-brown/10"
+                      style={{ backgroundColor: color }}
+                    />
+                    <span className="text-xs text-brown-muted">{name}</span>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>

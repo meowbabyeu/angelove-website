@@ -1,7 +1,7 @@
 {
   "Metadata": {
-    "title": "Angelove — Premium Kindermöbel",
-    "description": "Europäisches Familien-Label. Sichere, bequeme und vielseitige Kindermöbel aus OEKO-TEX zertifizierten Materialien."
+    "title": "AngeLove — Premium Kindermöbel",
+    "description": "Europäisches Familien-Label. Sichere, bequeme und vielseitige Kindermöbel aus OEKO-TEX zertifiziertem Cord."
   },
   "Nav": {
     "home": "Startseite",
@@ -12,46 +12,38 @@
   "Hero": {
     "tagline": "Sicher. Bequem. Vielseitig.",
     "title": "Premium Kindermöbel",
-    "subtitle": "Als Eltern wissen wir, wie wichtig sichere, bequeme und vielseitige Produkte für Ihre Kinder sind. Jedes Angelove-Produkt ist OEKO-TEX Standard 100 zertifiziert.",
+    "subtitle": "Als Eltern wissen wir, wie wichtig sichere, bequeme und vielseitige Produkte für Ihre Kinder sind. Jedes AngeLove-Produkt ist OEKO-TEX Standard 100 zertifiziert und aus Premium-Cord gefertigt.",
     "cta": "Entdecken Sie unsere Kollektion",
     "ctaAmazon": "Auf Amazon kaufen"
   },
   "Products": {
     "title": "Unsere Kollektion",
-    "subtitle": "Modulare Schaumstoffmöbel, die mit Ihrem Kind mitwachsen",
+    "subtitle": "Drei Premium-Produkte für Spiel, Erholung und Kreativität",
     "viewOnAmazon": "Auf Amazon ansehen",
     "startingFrom": "Ab",
-    "sofas": {
-      "name": "Spielsofa",
-      "description": "Modulares Spielsofa in Originalgröße mit 7-in-1-Konfigurationen und Schlaffunktion. Premium Cord-Bezug.",
-      "features": "7-in-1-Konfigurationen, Schlaffunktion, Modulare Elemente"
+    "sofa": {
+      "name": "Kindersofa",
+      "description": "Modulares Spielsofa mit Schlaffunktion. 10 Elemente für unzählige Konfigurationen — vom gemütlichen Sofa zur geräumigen Spielmatte. Premium Cord mit abnehmbaren, waschbaren Bezügen.",
+      "features": "Schlaffunktion, 10 modulare Elemente, Waschbare Bezüge, OEKO-TEX zertifiziert"
     },
-    "halfSofas": {
-      "name": "Kindersessel 3-in-1",
-      "description": "Kompakter faltbarer Sessel, der sich in eine Couch und Spielmatte verwandelt. Leicht und kinderfreundlich.",
-      "features": "3-in-1-Design, Faltbar, Leichtgewicht"
-    },
-    "waveLounger": {
-      "name": "Wellensofa",
-      "description": "Wellenförmiger Lounger zum Lesen und Entspannen. Ergonomisches Einzelstück, perfekt für ruhige Momente.",
-      "features": "Ergonomische Form, Leichtgewicht, Einzelstück"
-    },
-    "sofaPremium": {
-      "name": "Premium Sofa",
-      "description": "Premium Cord-Sofa mit erhöhter Schaumdichte und breiteren Konfigurationsmöglichkeiten für maximalen Komfort.",
-      "features": "Premium Cord, Verstärkter Schaum, Breite Konfigurationen"
+    "sessel": {
+      "name": "Kindersessel",
+      "description": "Multifunktionaler Schaumstoff-Sessel, der sich vom gemütlichen Sitz zum Lounger zur Spielmatte verwandelt. Leicht genug, damit Kinder ihn selbst umstellen können.",
+      "features": "3-in-1-Design, Faltbar, Leichtgewicht, OEKO-TEX zertifiziert"
     },
     "huepfpolster": {
       "name": "Hüpfpolster",
-      "description": "Indoor-Hüpfpolster mit Bonnell-Federung. OEKO-TEX zertifizierter Premium-Cord-Bezug in 6 Farben.",
-      "features": "Bonnell-Federung, Indoor-Hüpfen, 6 Farben"
+      "description": "Indoor-Hüpfpolster mit Bonnell-Federung. Sichere Alternative zum Trampolin — perfekt zum Energieabbau an Regentagen. 78 × 60 × 24 cm.",
+      "features": "Bonnell-Federung, Indoor-Hüpfen, 6 Farben, OEKO-TEX zertifiziert"
     }
   },
   "About": {
-    "title": "Über Angelove",
+    "title": "Über AngeLove",
     "subtitle": "Ein europäisches Familien-Label",
-    "story": "Angelove ist ein europäisches Familien-Label, das aus unserer eigenen Erfahrung als Eltern entstanden ist. Als Eltern wissen wir, wie wichtig sichere, bequeme und vielseitige Produkte für Kinder sind.",
+    "story": "AngeLove ist ein europäisches Familien-Label, das aus unserer eigenen Erfahrung als Eltern entstanden ist. Als Eltern wissen wir, wie wichtig sichere, bequeme und vielseitige Produkte für Kinder sind.",
     "storyExtended": "Wir haben eine Kollektion aus Sofas, Sesseln und modularen Schaumstoffelementen geschaffen, die Spiel, Erholung und Kreativität verbinden. Jedes Produkt wird aus OEKO-TEX Standard 100 zertifizierten Materialien hergestellt — dem höchsten Sicherheitsstandard für Textilien im Kontakt mit Babyhaut.",
+    "materialTitle": "Unser Signature-Material: Cord",
+    "materialText": "Jedes AngeLove-Produkt ist mit Premium-Cord-Stoff bezogen — weich, langlebig und stilvoll. Unsere sorgfältig ausgewählten Pastellfarben fügen sich harmonisch in moderne Wohnräume ein und schaffen eine warme, einladende Atmosphäre für Ihr Kind.",
     "values": {
       "safety": {
         "title": "Sicherheit zuerst",
@@ -67,7 +59,7 @@
       },
       "versatile": {
         "title": "Vielseitiges Design",
-        "description": "Multifunktionale Möbel — von 3-in-1-Sesseln bis zu 7-in-1-modularen Sofas. Wächst mit Ihrem Kind."
+        "description": "Multifunktionale Möbel, die sich jeder Situation anpassen — vom Spielen bis zum Ausruhen. Wachsen mit Ihrem Kind."
       }
     }
   },
@@ -85,7 +77,6 @@
     "email": "E-Mail-Adresse",
     "message": "Ihre Nachricht",
     "send": "Nachricht senden",
-    "successMessage": "Vielen Dank! Wir melden uns bald bei Ihnen.",
     "businessInquiries": "Für geschäftliche Anfragen",
     "generalQuestions": "Für allgemeine Fragen"
   },
@@ -96,6 +87,6 @@
     "privacy": "Datenschutz",
     "imprint": "Impressum",
     "terms": "AGB",
-    "copyright": "Angelove. Alle Rechte vorbehalten."
+    "copyright": "AngeLove. Alle Rechte vorbehalten."
   }
 }

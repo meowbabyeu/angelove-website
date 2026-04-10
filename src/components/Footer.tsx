@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <span className="font-heading text-2xl text-white">angelove</span>
+            <span className="font-heading text-2xl text-white">AngeLove</span>
             <p className="mt-3 text-sm leading-relaxed">{t("tagline")}</p>
           </div>
 

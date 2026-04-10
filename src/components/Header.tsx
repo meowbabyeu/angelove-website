@@ -5,6 +5,7 @@ import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import Image from "next/image";
 
 export function Header() {
   const t = useTranslations("Nav");
@@ -24,9 +25,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 cursor-pointer">
-            <span className="font-heading text-2xl sm:text-3xl tracking-tight text-brown">
-              angelove
-            </span>
+            <Image
+              src="/brand/logo.png"
+              alt="AngeLove"
+              width={140}
+              height={40}
+              className="h-8 sm:h-10 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}
