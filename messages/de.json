@@ -1,0 +1,101 @@
+{
+  "Metadata": {
+    "title": "Angelove — Premium Kindermöbel",
+    "description": "Europäisches Familien-Label. Sichere, bequeme und vielseitige Kindermöbel aus OEKO-TEX zertifizierten Materialien."
+  },
+  "Nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "tagline": "Sicher. Bequem. Vielseitig.",
+    "title": "Premium Kindermöbel",
+    "subtitle": "Als Eltern wissen wir, wie wichtig sichere, bequeme und vielseitige Produkte für Ihre Kinder sind. Jedes Angelove-Produkt ist OEKO-TEX Standard 100 zertifiziert.",
+    "cta": "Entdecken Sie unsere Kollektion",
+    "ctaAmazon": "Auf Amazon kaufen"
+  },
+  "Products": {
+    "title": "Unsere Kollektion",
+    "subtitle": "Modulare Schaumstoffmöbel, die mit Ihrem Kind mitwachsen",
+    "viewOnAmazon": "Auf Amazon ansehen",
+    "startingFrom": "Ab",
+    "sofas": {
+      "name": "Spielsofa",
+      "description": "Modulares Spielsofa in Originalgröße mit 7-in-1-Konfigurationen und Schlaffunktion. Premium Cord-Bezug.",
+      "features": "7-in-1-Konfigurationen, Schlaffunktion, Modulare Elemente"
+    },
+    "halfSofas": {
+      "name": "Kindersessel 3-in-1",
+      "description": "Kompakter faltbarer Sessel, der sich in eine Couch und Spielmatte verwandelt. Leicht und kinderfreundlich.",
+      "features": "3-in-1-Design, Faltbar, Leichtgewicht"
+    },
+    "waveLounger": {
+      "name": "Wellensofa",
+      "description": "Wellenförmiger Lounger zum Lesen und Entspannen. Ergonomisches Einzelstück, perfekt für ruhige Momente.",
+      "features": "Ergonomische Form, Leichtgewicht, Einzelstück"
+    },
+    "sofaPremium": {
+      "name": "Premium Sofa",
+      "description": "Premium Cord-Sofa mit erhöhter Schaumdichte und breiteren Konfigurationsmöglichkeiten für maximalen Komfort.",
+      "features": "Premium Cord, Verstärkter Schaum, Breite Konfigurationen"
+    },
+    "huepfpolster": {
+      "name": "Hüpfpolster",
+      "description": "Indoor-Hüpfpolster mit Bonnell-Federung. OEKO-TEX zertifizierter Premium-Cord-Bezug in 6 Farben.",
+      "features": "Bonnell-Federung, Indoor-Hüpfen, 6 Farben"
+    }
+  },
+  "About": {
+    "title": "Über Angelove",
+    "subtitle": "Ein europäisches Familien-Label",
+    "story": "Angelove ist ein europäisches Familien-Label, das aus unserer eigenen Erfahrung als Eltern entstanden ist. Als Eltern wissen wir, wie wichtig sichere, bequeme und vielseitige Produkte für Kinder sind.",
+    "storyExtended": "Wir haben eine Kollektion aus Sofas, Sesseln und modularen Schaumstoffelementen geschaffen, die Spiel, Erholung und Kreativität verbinden. Jedes Produkt wird aus OEKO-TEX Standard 100 zertifizierten Materialien hergestellt — dem höchsten Sicherheitsstandard für Textilien im Kontakt mit Babyhaut.",
+    "values": {
+      "safety": {
+        "title": "Sicherheit zuerst",
+        "description": "Alle Produkte sind OEKO-TEX Standard 100 zertifiziert — der höchste textile Sicherheitsstandard. Hypoallergener Schaumkern und geprüfte Materialien."
+      },
+      "montessori": {
+        "title": "Montessori-inspiriert",
+        "description": "Niedrige Möbel, die die Selbstständigkeit der Kinder fördern. Leicht genug, damit Kinder sie selbst umstellen können."
+      },
+      "european": {
+        "title": "Europäische Qualität",
+        "description": "In Europa entworfen und hergestellt. Premium Cord-Bezug und hochdichter Schaum für anhaltenden Komfort."
+      },
+      "versatile": {
+        "title": "Vielseitiges Design",
+        "description": "Multifunktionale Möbel — von 3-in-1-Sesseln bis zu 7-in-1-modularen Sofas. Wächst mit Ihrem Kind."
+      }
+    }
+  },
+  "Trust": {
+    "oekoTex": "OEKO-TEX zertifiziert",
+    "european": "Hergestellt in Europa",
+    "montessori": "Montessori-inspiriert",
+    "washable": "Waschbare Bezüge",
+    "hypoallergenic": "Hypoallergen"
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "subtitle": "Haben Sie eine Frage? Wir freuen uns von Ihnen zu hören.",
+    "name": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "message": "Ihre Nachricht",
+    "send": "Nachricht senden",
+    "successMessage": "Vielen Dank! Wir melden uns bald bei Ihnen.",
+    "businessInquiries": "Für geschäftliche Anfragen",
+    "generalQuestions": "Für allgemeine Fragen"
+  },
+  "Footer": {
+    "tagline": "Premium Kindermöbel. Mit Liebe in Europa hergestellt.",
+    "quickLinks": "Schnellzugriff",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "terms": "AGB",
+    "copyright": "Angelove. Alle Rechte vorbehalten."
+  }
+}

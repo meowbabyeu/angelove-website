@@ -1,0 +1,101 @@
+{
+  "Metadata": {
+    "title": "Angelove — Premium Children's Furniture",
+    "description": "European family label. Safe, comfortable and versatile children's furniture made with OEKO-TEX certified materials."
+  },
+  "Nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "tagline": "Safe. Comfortable. Versatile.",
+    "title": "Premium Children's Furniture",
+    "subtitle": "As parents, we know how important safe, comfortable and versatile products are for your children. Every Angelove product is OEKO-TEX Standard 100 certified.",
+    "cta": "Discover Our Collection",
+    "ctaAmazon": "Shop on Amazon"
+  },
+  "Products": {
+    "title": "Our Collection",
+    "subtitle": "Modular foam furniture that grows with your child",
+    "viewOnAmazon": "View on Amazon",
+    "startingFrom": "Starting from",
+    "sofas": {
+      "name": "Play Sofa",
+      "description": "Full-size modular play sofa with 7-in-1 configurations and sleep function. Premium corduroy upholstery.",
+      "features": "7-in-1 configurations, Sleep function, Modular elements"
+    },
+    "halfSofas": {
+      "name": "Children's Armchair 3-in-1",
+      "description": "Compact foldable armchair that transforms into a couch and play mat. Lightweight and child-friendly.",
+      "features": "3-in-1 design, Foldable, Lightweight"
+    },
+    "waveLounger": {
+      "name": "Wave Lounger",
+      "description": "Wave-shaped lounger for reading and relaxation. Ergonomic single-piece design, perfect for quiet time.",
+      "features": "Ergonomic shape, Lightweight, Single piece"
+    },
+    "sofaPremium": {
+      "name": "Premium Sofa",
+      "description": "Premium corduroy sofa with enhanced foam density and wider configuration options for maximum comfort.",
+      "features": "Premium corduroy, Enhanced foam, Wide configurations"
+    },
+    "huepfpolster": {
+      "name": "Bouncing Cushion",
+      "description": "Indoor bouncing cushion with Bonnell spring system. OEKO-TEX certified premium corduroy cover in 6 colours.",
+      "features": "Bonnell springs, Indoor bouncing, 6 colours"
+    }
+  },
+  "About": {
+    "title": "About Angelove",
+    "subtitle": "A European Family Label",
+    "story": "Angelove is a European family label born from our own parenting experience. As parents, we know how important safe, comfortable and versatile products are for children.",
+    "storyExtended": "We created a collection of sofas, armchairs and modular foam elements that combine play, rest and creativity. Every product is made with OEKO-TEX Standard 100 certified materials — the highest safety standard for textiles in contact with baby skin.",
+    "values": {
+      "safety": {
+        "title": "Safety First",
+        "description": "All products are OEKO-TEX Standard 100 certified — the highest textile safety standard. Hypoallergenic foam core and tested materials."
+      },
+      "montessori": {
+        "title": "Montessori Inspired",
+        "description": "Low-height furniture that encourages children's independence. Lightweight enough for children to rearrange themselves."
+      },
+      "european": {
+        "title": "European Quality",
+        "description": "Designed and manufactured in Europe. Premium corduroy upholstery and high-density foam for lasting comfort."
+      },
+      "versatile": {
+        "title": "Versatile Design",
+        "description": "Multi-functional furniture — from 3-in-1 armchairs to 7-in-1 modular sofas. Grows with your child."
+      }
+    }
+  },
+  "Trust": {
+    "oekoTex": "OEKO-TEX Certified",
+    "european": "Made in Europe",
+    "montessori": "Montessori Inspired",
+    "washable": "Washable Covers",
+    "hypoallergenic": "Hypoallergenic"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question? We'd love to hear from you.",
+    "name": "Your Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "send": "Send Message",
+    "successMessage": "Thank you! We'll get back to you soon.",
+    "businessInquiries": "For business inquiries",
+    "generalQuestions": "For general questions"
+  },
+  "Footer": {
+    "tagline": "Premium children's furniture. Made with love in Europe.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "terms": "Terms & Conditions",
+    "copyright": "Angelove. All rights reserved."
+  }
+}

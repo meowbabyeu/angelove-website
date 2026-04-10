@@ -1,0 +1,101 @@
+{
+  "Metadata": {
+    "title": "Angelove — Mobilier Premium pour Enfants",
+    "description": "Label familial européen. Mobilier pour enfants sûr, confortable et polyvalent, fabriqué avec des matériaux certifiés OEKO-TEX."
+  },
+  "Nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "tagline": "Sûr. Confortable. Polyvalent.",
+    "title": "Mobilier Premium pour Enfants",
+    "subtitle": "En tant que parents, nous savons à quel point des produits sûrs, confortables et polyvalents sont importants pour vos enfants. Chaque produit Angelove est certifié OEKO-TEX Standard 100.",
+    "cta": "Découvrez notre collection",
+    "ctaAmazon": "Acheter sur Amazon"
+  },
+  "Products": {
+    "title": "Notre Collection",
+    "subtitle": "Mobilier modulaire en mousse qui grandit avec votre enfant",
+    "viewOnAmazon": "Voir sur Amazon",
+    "startingFrom": "À partir de",
+    "sofas": {
+      "name": "Canapé de Jeu",
+      "description": "Canapé de jeu modulaire avec 7 configurations et fonction couchage. Revêtement premium en velours côtelé.",
+      "features": "7 configurations, Fonction couchage, Éléments modulaires"
+    },
+    "halfSofas": {
+      "name": "Fauteuil Enfant 3-en-1",
+      "description": "Fauteuil compact pliable qui se transforme en canapé et tapis de jeu. Léger et adapté aux enfants.",
+      "features": "Design 3-en-1, Pliable, Léger"
+    },
+    "waveLounger": {
+      "name": "Chaise Longue Vague",
+      "description": "Chaise longue en forme de vague pour la lecture et la détente. Design ergonomique en une pièce.",
+      "features": "Forme ergonomique, Léger, Une pièce"
+    },
+    "sofaPremium": {
+      "name": "Canapé Premium",
+      "description": "Canapé premium en velours côtelé avec mousse haute densité et options de configuration élargies.",
+      "features": "Velours côtelé premium, Mousse renforcée, Configurations larges"
+    },
+    "huepfpolster": {
+      "name": "Coussin Rebondissant",
+      "description": "Coussin rebondissant d'intérieur avec système de ressorts Bonnell. Housse certifiée OEKO-TEX en 6 couleurs.",
+      "features": "Ressorts Bonnell, Rebond intérieur, 6 couleurs"
+    }
+  },
+  "About": {
+    "title": "À propos d'Angelove",
+    "subtitle": "Un label familial européen",
+    "story": "Angelove est un label familial européen né de notre propre expérience de parents. En tant que parents, nous savons combien des produits sûrs, confortables et polyvalents sont importants pour les enfants.",
+    "storyExtended": "Nous avons créé une collection de canapés, fauteuils et éléments modulaires en mousse qui allient jeu, repos et créativité. Chaque produit est fabriqué avec des matériaux certifiés OEKO-TEX Standard 100 — la norme de sécurité la plus élevée pour les textiles en contact avec la peau de bébé.",
+    "values": {
+      "safety": {
+        "title": "La sécurité avant tout",
+        "description": "Tous les produits sont certifiés OEKO-TEX Standard 100 — la norme de sécurité textile la plus élevée. Noyau en mousse hypoallergénique et matériaux testés."
+      },
+      "montessori": {
+        "title": "Inspiré Montessori",
+        "description": "Mobilier bas qui encourage l'autonomie des enfants. Assez léger pour que les enfants le déplacent eux-mêmes."
+      },
+      "european": {
+        "title": "Qualité Européenne",
+        "description": "Conçu et fabriqué en Europe. Revêtement premium en velours côtelé et mousse haute densité pour un confort durable."
+      },
+      "versatile": {
+        "title": "Design Polyvalent",
+        "description": "Mobilier multifonctionnel — des fauteuils 3-en-1 aux canapés modulaires 7-en-1. Grandit avec votre enfant."
+      }
+    }
+  },
+  "Trust": {
+    "oekoTex": "Certifié OEKO-TEX",
+    "european": "Fabriqué en Europe",
+    "montessori": "Inspiré Montessori",
+    "washable": "Housses lavables",
+    "hypoallergenic": "Hypoallergénique"
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez une question ? Nous serions ravis de vous entendre.",
+    "name": "Votre nom",
+    "email": "Adresse e-mail",
+    "message": "Votre message",
+    "send": "Envoyer le message",
+    "successMessage": "Merci ! Nous vous répondrons bientôt.",
+    "businessInquiries": "Pour les demandes commerciales",
+    "generalQuestions": "Pour les questions générales"
+  },
+  "Footer": {
+    "tagline": "Mobilier premium pour enfants. Fabriqué avec amour en Europe.",
+    "quickLinks": "Liens rapides",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "imprint": "Mentions légales",
+    "terms": "Conditions générales",
+    "copyright": "Angelove. Tous droits réservés."
+  }
+}
