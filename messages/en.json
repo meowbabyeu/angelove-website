@@ -80,6 +80,36 @@
     "businessInquiries": "For business inquiries",
     "generalQuestions": "For general questions"
   },
+  "Cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping (DHL)",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "processing": "Processing...",
+    "shippingNote": "Shipping to DE, AT, FR, IT, ES — €9.99 via DHL"
+  },
+  "ProductDetail": {
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added!",
+    "color": "Colour",
+    "dimensions": "Dimensions",
+    "features": "Features",
+    "shipping": "Shipping",
+    "shippingText": "€9.99 via DHL (DE, AT, FR, IT, ES)",
+    "certification": "OEKO-TEX",
+    "certificationText": "Standard 100 certified materials",
+    "alsoOnAmazon": "Also available on Amazon"
+  },
+  "Checkout": {
+    "successTitle": "Thank you for your order!",
+    "successMessage": "Your order has been received. You will receive a confirmation email shortly. We will ship your AngeLove furniture via DHL within 3-5 business days.",
+    "cancelTitle": "Order cancelled",
+    "cancelMessage": "Your order was not completed. No payment was charged. Your cart items are still saved.",
+    "backToHome": "Back to Home",
+    "backToProducts": "Back to Products"
+  },
   "Footer": {
     "tagline": "Premium children's furniture. Made with love in Europe.",
     "quickLinks": "Quick Links",

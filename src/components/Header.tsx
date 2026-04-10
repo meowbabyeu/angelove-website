@@ -6,6 +6,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import { CartButton } from "./CartButton";
 
 export function Header() {
   const t = useTranslations("Nav");
@@ -53,8 +54,9 @@ export function Header() {
           </nav>
 
           {/* Language Switcher + Mobile Toggle */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <LanguageSwitcher />
+            <CartButton />
             <button
               type="button"
               className="md:hidden p-2 rounded-xl text-brown-muted hover:text-brown hover:bg-cream/50 transition-colors cursor-pointer"

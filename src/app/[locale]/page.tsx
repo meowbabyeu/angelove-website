@@ -126,10 +126,11 @@ export default async function HomePage({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {PRODUCTS.map(({ key, price, image, amazonUrl }) => (
-              <div
+            {PRODUCTS.map(({ key, price, image }) => (
+              <Link
                 key={key}
-                className="group bg-white rounded-2xl border border-cream/60 overflow-hidden hover:shadow-xl hover:shadow-brown/5 transition-all duration-300"
+                href={`/products/${key}`}
+                className="group bg-white rounded-2xl border border-cream/60 overflow-hidden hover:shadow-xl hover:shadow-brown/5 transition-all duration-300 cursor-pointer"
               >
                 <div className="relative aspect-square bg-white overflow-hidden p-6">
                   <Image
@@ -154,18 +155,12 @@ export default async function HomePage({
                       {tp("startingFrom")}{" "}
                       <span className="font-semibold text-brown text-base">{price}</span>
                     </span>
-                    <a
-                      href={amazonUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-turquoise hover:text-turquoise-dark transition-colors cursor-pointer"
-                    >
-                      Amazon
-                      <ExternalLink size={14} />
-                    </a>
+                    <span className="text-sm font-semibold text-coral group-hover:text-coral-dark transition-colors flex items-center gap-1">
+                      <ArrowRight size={14} />
+                    </span>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

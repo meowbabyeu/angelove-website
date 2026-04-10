@@ -80,6 +80,36 @@
     "businessInquiries": "Pour les demandes commerciales",
     "generalQuestions": "Pour les questions générales"
   },
+  "Cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison (DHL)",
+    "total": "Total",
+    "checkout": "Passer la commande",
+    "processing": "Traitement...",
+    "shippingNote": "Livraison en DE, AT, FR, IT, ES — 9,99 € via DHL"
+  },
+  "ProductDetail": {
+    "addToCart": "Ajouter au panier",
+    "addedToCart": "Ajouté !",
+    "color": "Couleur",
+    "dimensions": "Dimensions",
+    "features": "Caractéristiques",
+    "shipping": "Livraison",
+    "shippingText": "9,99 € via DHL (DE, AT, FR, IT, ES)",
+    "certification": "OEKO-TEX",
+    "certificationText": "Matériaux certifiés Standard 100",
+    "alsoOnAmazon": "Également disponible sur Amazon"
+  },
+  "Checkout": {
+    "successTitle": "Merci pour votre commande !",
+    "successMessage": "Votre commande a été reçue. Vous recevrez un e-mail de confirmation sous peu. Nous expédierons vos meubles AngeLove par DHL sous 3 à 5 jours ouvrés.",
+    "cancelTitle": "Commande annulée",
+    "cancelMessage": "Votre commande n'a pas été finalisée. Aucun paiement n'a été effectué. Les articles de votre panier sont toujours sauvegardés.",
+    "backToHome": "Retour à l'accueil",
+    "backToProducts": "Retour aux produits"
+  },
   "Footer": {
     "tagline": "Mobilier premium pour enfants. Fabriqué avec amour en Europe.",
     "quickLinks": "Liens rapides",

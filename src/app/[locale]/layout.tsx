@@ -4,6 +4,8 @@ import { setRequestLocale } from "next-intl/server";
 import { Varela_Round, Nunito_Sans } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { CartProvider } from "@/lib/cart";
+import { CartDrawer } from "@/components/CartDrawer";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -61,9 +63,12 @@ export default async function LocaleLayout({
     >
       <body className="min-h-full flex flex-col bg-off-white text-brown font-body">
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <CartProvider>
+            <Header />
+            <CartDrawer />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </CartProvider>
         </NextIntlClientProvider>
       </body>
     </html>

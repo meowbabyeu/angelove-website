@@ -80,6 +80,36 @@
     "businessInquiries": "Für geschäftliche Anfragen",
     "generalQuestions": "Für allgemeine Fragen"
   },
+  "Cart": {
+    "title": "Warenkorb",
+    "empty": "Ihr Warenkorb ist leer",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand (DHL)",
+    "total": "Gesamtsumme",
+    "checkout": "Zur Kasse",
+    "processing": "Wird verarbeitet...",
+    "shippingNote": "Versand nach DE, AT, FR, IT, ES — 9,99 € per DHL"
+  },
+  "ProductDetail": {
+    "addToCart": "In den Warenkorb",
+    "addedToCart": "Hinzugefügt!",
+    "color": "Farbe",
+    "dimensions": "Abmessungen",
+    "features": "Eigenschaften",
+    "shipping": "Versand",
+    "shippingText": "9,99 € per DHL (DE, AT, FR, IT, ES)",
+    "certification": "OEKO-TEX",
+    "certificationText": "Standard 100 zertifizierte Materialien",
+    "alsoOnAmazon": "Auch auf Amazon erhältlich"
+  },
+  "Checkout": {
+    "successTitle": "Vielen Dank für Ihre Bestellung!",
+    "successMessage": "Ihre Bestellung wurde empfangen. Sie erhalten in Kürze eine Bestätigungsmail. Wir versenden Ihre AngeLove-Möbel innerhalb von 3-5 Werktagen per DHL.",
+    "cancelTitle": "Bestellung abgebrochen",
+    "cancelMessage": "Ihre Bestellung wurde nicht abgeschlossen. Es wurde keine Zahlung belastet. Ihre Warenkorbartikel sind noch gespeichert.",
+    "backToHome": "Zurück zur Startseite",
+    "backToProducts": "Zurück zu den Produkten"
+  },
   "Footer": {
     "tagline": "Premium Kindermöbel. Mit Liebe in Europa hergestellt.",
     "quickLinks": "Schnellzugriff",
