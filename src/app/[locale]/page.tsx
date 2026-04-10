@@ -14,13 +14,13 @@ import {
 const PRODUCTS = [
   {
     key: "sofa",
-    price: "€199",
+    price: "€219",
     image: "/products/sofa-cream.jpg",
     amazonUrl: "https://www.amazon.de/dp/B0F43NYGZ1",
   },
   {
     key: "sessel",
-    price: "€99",
+    price: "€109",
     image: "/products/sessel-beige.jpg",
     amazonUrl: "https://www.amazon.de/dp/B0DCNJPB7B",
   },
@@ -92,8 +92,8 @@ export default async function HomePage({
                 src="/lifestyle/hero.png"
                 alt="Child playing on AngeLove bouncing cushion in a Scandinavian children's room"
                 width={600}
-                height={800}
-                className="rounded-3xl shadow-2xl shadow-brown/10 object-cover w-full max-h-[500px]"
+                height={900}
+                className="rounded-3xl shadow-2xl shadow-brown/10 object-contain w-full"
                 priority
               />
             </div>
@@ -131,12 +131,12 @@ export default async function HomePage({
                 key={key}
                 className="group bg-white rounded-2xl border border-cream/60 overflow-hidden hover:shadow-xl hover:shadow-brown/5 transition-all duration-300"
               >
-                <div className="relative aspect-square bg-cream/20 overflow-hidden">
+                <div className="relative aspect-square bg-white overflow-hidden p-6">
                   <Image
                     src={image}
                     alt={tp(`${key}.name`)}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
@@ -206,11 +206,11 @@ export default async function HomePage({
               </Link>
             </div>
             <Image
-              src="/lifestyle/sofa-lifestyle.png"
-              alt="Child sleeping on AngeLove sofa"
+              src="/lifestyle/lifestyle-1.png"
+              alt="AngeLove furniture in a bright Scandinavian children's room"
               width={600}
               height={400}
-              className="rounded-3xl shadow-lg shadow-brown/5 object-cover w-full"
+              className="rounded-3xl shadow-lg shadow-brown/5 object-cover w-full max-h-[450px]"
             />
           </div>
         </div>

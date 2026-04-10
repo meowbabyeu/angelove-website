@@ -5,14 +5,14 @@ import { ShieldCheck, ExternalLink } from "lucide-react";
 const PRODUCTS = [
   {
     key: "sofa",
-    price: "€199 – €299",
+    price: "€219",
     images: ["/products/sofa-cream.jpg", "/products/sofa-pink.jpg", "/products/sofa-brown.jpg"],
     amazonUrl: "https://www.amazon.de/dp/B0F43NYGZ1",
     badge: null,
   },
   {
     key: "sessel",
-    price: "€89 – €129",
+    price: "€109",
     images: ["/products/sessel-beige.jpg", "/products/sessel-pink.jpg", "/products/sessel-green.jpg"],
     amazonUrl: "https://www.amazon.de/dp/B0DCNJPB7B",
     badge: null,
@@ -59,12 +59,12 @@ export default async function ProductsPage({
             >
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 {/* Main Image */}
-                <div className="relative aspect-square bg-cream/20 overflow-hidden">
+                <div className="relative aspect-square bg-white overflow-hidden p-6">
                   <Image
                     src={images[0]}
                     alt={t(`${key}.name`)}
                     fill
-                    className="object-cover"
+                    className="object-contain p-4"
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   {badge && (
