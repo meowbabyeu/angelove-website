@@ -79,7 +79,7 @@ export default async function HomePage({
                   <ArrowRight size={18} />
                 </Link>
                 <a
-                  href="https://www.amazon.de/stores/Angelove"
+                  href="https://www.amazon.de/dp/B0DCNJPB7B"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white border-2 border-cream hover:border-turquoise text-brown font-semibold px-7 py-3.5 rounded-2xl transition-colors duration-200 cursor-pointer"

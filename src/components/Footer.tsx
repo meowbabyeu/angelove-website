@@ -81,7 +81,7 @@ export function Footer() {
               Shop
             </h3>
             <a
-              href="https://www.amazon.de/stores/Angelove"
+              href="https://www.amazon.de/dp/B0DCNJPB7B"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-turquoise hover:text-turquoise-dark transition-colors cursor-pointer"
