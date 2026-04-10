@@ -32,7 +32,7 @@ export const PRODUCTS: Product[] = [
     badge: null,
     dimensions: "120 × 80 × 40 cm",
     rating: 4.7,
-    reviewCount: 12,
+    reviewCount: 29,
   },
   {
     slug: "sessel",
@@ -62,8 +62,8 @@ export const PRODUCTS: Product[] = [
     amazonUrl: "https://www.amazon.de/dp/B0GS3MJC4P",
     badge: "New",
     dimensions: "78 × 60 × 24 cm",
-    rating: 4.8,
-    reviewCount: 18,
+    rating: 0,
+    reviewCount: 0,
   },
 ];
 

@@ -9,6 +9,8 @@ interface Props {
 }
 
 export function ProductRating({ rating, reviewCount, amazonUrl }: Props) {
+  if (reviewCount === 0) return null;
+
   const fullStars = Math.floor(rating);
   const emptyStars = 5 - fullStars;
 
