@@ -80,6 +80,11 @@
     "businessInquiries": "Für geschäftliche Anfragen",
     "generalQuestions": "Für allgemeine Fragen"
   },
+  "Announcement": {
+    "freeShipping": "Kostenloser Versand ab 299 €",
+    "oekoTex": "Alle Produkte OEKO-TEX Standard 100 zertifiziert",
+    "shipping": "Versand nach DE, AT, FR, IT & ES per DHL"
+  },
   "Cart": {
     "title": "Warenkorb",
     "empty": "Ihr Warenkorb ist leer",
@@ -88,7 +93,10 @@
     "total": "Gesamtsumme",
     "checkout": "Zur Kasse",
     "processing": "Wird verarbeitet...",
-    "shippingNote": "Versand nach DE, AT, FR, IT, ES — 9,99 € per DHL"
+    "shippingNote": "Versand nach DE, AT, FR, IT, ES — 9,99 € per DHL",
+    "freeShippingProgress": "Noch {amount} € bis zum kostenlosen Versand!",
+    "freeShippingEarned": "Sie haben kostenlosen Versand freigeschaltet!",
+    "freeShippingAdd": "Kostenloser Versand ab 299 €"
   },
   "ProductDetail": {
     "addToCart": "In den Warenkorb",
@@ -100,7 +108,42 @@
     "shippingText": "9,99 € per DHL (DE, AT, FR, IT, ES)",
     "certification": "OEKO-TEX",
     "certificationText": "Standard 100 zertifizierte Materialien",
-    "alsoOnAmazon": "Auch auf Amazon erhältlich"
+    "alsoOnAmazon": "Auch auf Amazon erhältlich",
+    "inStock": "Auf Lager",
+    "deliveryTime": "Lieferung in 3–5 Werktagen per DHL",
+    "relatedTitle": "Ergänzen Sie Ihr Set"
+  },
+  "Testimonials": {
+    "title": "Was Eltern sagen",
+    "subtitle": "Von Familien in ganz Europa geschätzt",
+    "t1": {
+      "quote": "Die Qualität des Cord-Stoffs ist hervorragend. Unsere Tochter benutzt ihr Sofa jeden Tag — zum Spielen, Lesen und für ein Nickerchen. Jeden Cent wert.",
+      "author": "Sophie M.",
+      "location": "München, DE"
+    },
+    "t2": {
+      "quote": "Endlich Kindermöbel, die auch in unserem Wohnzimmer gut aussehen. Die OEKO-TEX-Zertifizierung war für uns der entscheidende Faktor.",
+      "author": "Laura K.",
+      "location": "Wien, AT"
+    },
+    "t3": {
+      "quote": "Das Hüpfpolster ist der beste Kauf, den wir gemacht haben. Unser Sohn kann auch an Regentagen Energie loswerden. Solide Qualität und schönes Design.",
+      "author": "Thomas R.",
+      "location": "Hamburg, DE"
+    }
+  },
+  "WhyUs": {
+    "title": "Warum AngeLove?",
+    "subtitle": "Sehen Sie den Unterschied",
+    "angelove": "AngeLove",
+    "cheapImports": "Billige Importe",
+    "otherBrands": "Andere Marken",
+    "oekoTex": "OEKO-TEX zertifiziert",
+    "europeanMade": "In Europa hergestellt",
+    "premiumCorduroy": "Premium Cord",
+    "montessoriDesign": "Montessori-Design",
+    "washableCovers": "Waschbare Bezüge",
+    "multiConfiguration": "Multi-Konfiguration"
   },
   "Checkout": {
     "successTitle": "Vielen Dank für Ihre Bestellung!",

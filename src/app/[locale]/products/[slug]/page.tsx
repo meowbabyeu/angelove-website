@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { PRODUCTS, getProductBySlug } from "@/lib/products";
 import { ProductDetailClient } from "./ProductDetailClient";
+import { RelatedProducts } from "@/components/RelatedProducts";
 
 export function generateStaticParams() {
   return PRODUCTS.flatMap((p) =>
@@ -59,5 +60,16 @@ export default async function ProductDetailPage({
     certificationText: tt("certificationText"),
   };
 
-  return <ProductDetailClient product={productData} labels={labels} />;
+  return (
+    <>
+      <ProductDetailClient product={productData} labels={labels} />
+      <section className="py-8 sm:py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-md">
+            <RelatedProducts currentSlug={slug} locale={locale} />
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

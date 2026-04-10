@@ -80,6 +80,11 @@
     "businessInquiries": "Pour les demandes commerciales",
     "generalQuestions": "Pour les questions générales"
   },
+  "Announcement": {
+    "freeShipping": "Livraison gratuite dès 299 €",
+    "oekoTex": "Tous les produits certifiés OEKO-TEX Standard 100",
+    "shipping": "Livraison en DE, AT, FR, IT & ES via DHL"
+  },
   "Cart": {
     "title": "Panier",
     "empty": "Votre panier est vide",
@@ -88,7 +93,10 @@
     "total": "Total",
     "checkout": "Passer la commande",
     "processing": "Traitement...",
-    "shippingNote": "Livraison en DE, AT, FR, IT, ES — 9,99 € via DHL"
+    "shippingNote": "Livraison en DE, AT, FR, IT, ES — 9,99 € via DHL",
+    "freeShippingProgress": "Ajoutez {amount} € pour la livraison gratuite !",
+    "freeShippingEarned": "Vous bénéficiez de la livraison gratuite !",
+    "freeShippingAdd": "Livraison gratuite dès 299 €"
   },
   "ProductDetail": {
     "addToCart": "Ajouter au panier",
@@ -100,7 +108,42 @@
     "shippingText": "9,99 € via DHL (DE, AT, FR, IT, ES)",
     "certification": "OEKO-TEX",
     "certificationText": "Matériaux certifiés Standard 100",
-    "alsoOnAmazon": "Également disponible sur Amazon"
+    "alsoOnAmazon": "Également disponible sur Amazon",
+    "inStock": "En stock",
+    "deliveryTime": "Livraison en 3 à 5 jours ouvrés via DHL",
+    "relatedTitle": "Complétez votre ensemble"
+  },
+  "Testimonials": {
+    "title": "Ce que disent les parents",
+    "subtitle": "Approuvé par les familles à travers l'Europe",
+    "t1": {
+      "quote": "La qualité du velours côtelé est exceptionnelle. Notre fille utilise son canapé tous les jours — pour jouer, lire et faire la sieste. Chaque centime en vaut la peine.",
+      "author": "Sophie M.",
+      "location": "Munich, DE"
+    },
+    "t2": {
+      "quote": "Enfin du mobilier pour enfants qui est beau dans notre salon. La certification OEKO-TEX a été le facteur décisif pour nous.",
+      "author": "Laura K.",
+      "location": "Vienne, AT"
+    },
+    "t3": {
+      "quote": "Le coussin rebondissant est le meilleur achat que nous ayons fait. Notre fils dépense son énergie même les jours de pluie. Qualité solide et beau design.",
+      "author": "Thomas R.",
+      "location": "Hambourg, DE"
+    }
+  },
+  "WhyUs": {
+    "title": "Pourquoi AngeLove ?",
+    "subtitle": "Voyez la différence",
+    "angelove": "AngeLove",
+    "cheapImports": "Imports bon marché",
+    "otherBrands": "Autres marques",
+    "oekoTex": "Certifié OEKO-TEX",
+    "europeanMade": "Fabriqué en Europe",
+    "premiumCorduroy": "Velours côtelé premium",
+    "montessoriDesign": "Design Montessori",
+    "washableCovers": "Housses lavables",
+    "multiConfiguration": "Multi-configuration"
   },
   "Checkout": {
     "successTitle": "Merci pour votre commande !",

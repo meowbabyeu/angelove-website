@@ -10,6 +10,8 @@ import {
   ExternalLink,
   Check,
 } from "lucide-react";
+import { StockIndicator } from "@/components/StockIndicator";
+import { ProductRating } from "@/components/ProductRating";
 
 interface Props {
   product: Product & {
@@ -95,6 +97,14 @@ export function ProductDetailClient({ product, labels }: Props) {
               <p className="mt-2 text-3xl font-semibold text-brown">
                 {product.priceDisplay}
               </p>
+
+              <div className="mt-3">
+                <ProductRating rating={4.8} reviewCount={127} amazonUrl={product.amazonUrl} />
+              </div>
+
+              <div className="mt-3">
+                <StockIndicator />
+              </div>
 
               <p className="mt-4 text-brown-muted leading-relaxed">
                 {product.description}

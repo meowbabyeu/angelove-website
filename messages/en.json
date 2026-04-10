@@ -80,6 +80,11 @@
     "businessInquiries": "For business inquiries",
     "generalQuestions": "For general questions"
   },
+  "Announcement": {
+    "freeShipping": "Free shipping on orders over €299",
+    "oekoTex": "All products OEKO-TEX Standard 100 certified",
+    "shipping": "Shipping to DE, AT, FR, IT & ES via DHL"
+  },
   "Cart": {
     "title": "Shopping Cart",
     "empty": "Your cart is empty",
@@ -88,7 +93,10 @@
     "total": "Total",
     "checkout": "Proceed to Checkout",
     "processing": "Processing...",
-    "shippingNote": "Shipping to DE, AT, FR, IT, ES — €9.99 via DHL"
+    "shippingNote": "Shipping to DE, AT, FR, IT, ES — €9.99 via DHL",
+    "freeShippingProgress": "Add €{amount} more for free shipping!",
+    "freeShippingEarned": "You've earned free shipping!",
+    "freeShippingAdd": "Free shipping from €299"
   },
   "ProductDetail": {
     "addToCart": "Add to Cart",
@@ -100,7 +108,42 @@
     "shippingText": "€9.99 via DHL (DE, AT, FR, IT, ES)",
     "certification": "OEKO-TEX",
     "certificationText": "Standard 100 certified materials",
-    "alsoOnAmazon": "Also available on Amazon"
+    "alsoOnAmazon": "Also available on Amazon",
+    "inStock": "In stock",
+    "deliveryTime": "Delivery in 3–5 business days via DHL",
+    "relatedTitle": "Complete your set"
+  },
+  "Testimonials": {
+    "title": "What Parents Say",
+    "subtitle": "Trusted by families across Europe",
+    "t1": {
+      "quote": "The quality of the corduroy is outstanding. Our daughter uses her sofa every single day — for playing, reading and napping. Worth every cent.",
+      "author": "Sophie M.",
+      "location": "München, DE"
+    },
+    "t2": {
+      "quote": "Finally children's furniture that actually looks good in our living room. The OEKO-TEX certification was the deciding factor for us.",
+      "author": "Laura K.",
+      "location": "Wien, AT"
+    },
+    "t3": {
+      "quote": "The bouncing cushion is the best purchase we've made. Our son burns off energy even on rainy days. Solid quality and beautiful design.",
+      "author": "Thomas R.",
+      "location": "Hamburg, DE"
+    }
+  },
+  "WhyUs": {
+    "title": "Why AngeLove?",
+    "subtitle": "See how we compare",
+    "angelove": "AngeLove",
+    "cheapImports": "Cheap imports",
+    "otherBrands": "Other brands",
+    "oekoTex": "OEKO-TEX Certified",
+    "europeanMade": "European Made",
+    "premiumCorduroy": "Premium Corduroy",
+    "montessoriDesign": "Montessori Design",
+    "washableCovers": "Washable Covers",
+    "multiConfiguration": "Multi-configuration"
   },
   "Checkout": {
     "successTitle": "Thank you for your order!",

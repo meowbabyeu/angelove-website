@@ -6,6 +6,7 @@ import Image from "next/image";
 import { X, Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
 import { useState } from "react";
 import { useLocale } from "next-intl";
+import { FreeShippingBar } from "./FreeShippingBar";
 
 export function CartDrawer() {
   const { items, isOpen, closeCart, removeItem, updateQuantity, totalPrice } =
@@ -134,6 +135,7 @@ export function CartDrawer() {
         {/* Footer */}
         {hasItems && (
           <div className="border-t border-cream p-5 space-y-3">
+            <FreeShippingBar totalPrice={totalPrice} />
             <div className="flex justify-between text-sm text-brown-muted">
               <span>{t("subtotal")}</span>
               <span>€{(totalPrice / 100).toFixed(2)}</span>

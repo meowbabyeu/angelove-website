@@ -10,6 +10,8 @@ import {
   ArrowRight,
   ExternalLink,
 } from "lucide-react";
+import { Testimonials } from "@/components/Testimonials";
+import { WhyAngeLove } from "@/components/WhyAngeLove";
 
 const PRODUCTS = [
   {
@@ -210,6 +212,12 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+
+      {/* Why AngeLove */}
+      <WhyAngeLove />
+
+      {/* Testimonials */}
+      <Testimonials />
     </>
   );
 }
