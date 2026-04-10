@@ -89,11 +89,11 @@ export default async function HomePage({
             </div>
             <div className="relative">
               <Image
-                src="/lifestyle/hero.png"
-                alt="Child playing on AngeLove bouncing cushion in a Scandinavian children's room"
+                src="/lifestyle/hero-new.png"
+                alt="Child jumping on AngeLove modular sofa in a modern room"
                 width={600}
-                height={900}
-                className="rounded-3xl shadow-2xl shadow-brown/10 object-contain w-full"
+                height={800}
+                className="rounded-3xl shadow-2xl shadow-brown/10 object-cover w-full max-h-[550px]"
                 priority
               />
             </div>
@@ -206,8 +206,8 @@ export default async function HomePage({
               </Link>
             </div>
             <Image
-              src="/lifestyle/lifestyle-1.png"
-              alt="AngeLove furniture in a bright Scandinavian children's room"
+              src="/lifestyle/about-new.png"
+              alt="Boy jumping on AngeLove bouncing cushion in Scandinavian room"
               width={600}
               height={400}
               className="rounded-3xl shadow-lg shadow-brown/5 object-cover w-full max-h-[450px]"
